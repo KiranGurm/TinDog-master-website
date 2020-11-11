@@ -1,0 +1,240 @@
+
+h1{
+
+   font-family: 'Montserrat', sans-serif;
+   font-size:3.5rem;
+   line-height: 1.5;
+   font-weight: 900;
+
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+
+}
+
+body{
+  font-family: 'Montserrat';
+
+}
+
+
+
+.para{
+  color: #8f8f8f;
+
+}
+
+.icon{
+color: #ef8172;
+/* width: 300px;
+
+font-size: 70px; to change font-icon size; angela used fa-4x; */
+padding-bottom: 5%;
+
+}
+
+/* feature-box in angella's code...if you individullay center h3, para and icon, then it is not that responsive (centerly) when you zoom in or out. So, center the whole together */
+.icon-class{
+  text-align: center;
+  padding: 4%;
+
+}
+
+.icon:hover{
+  color:#ff4c68;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+
+}
+
+
+.logo{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+
+}
+
+/* title image */
+
+.title-image{
+
+  margin-left: 3rem;
+  width: 60%;
+  transform: rotate(25deg);
+  position:absolute;
+
+
+  /* she used right:30% becasuse of absolute  */
+
+}
+
+
+
+#title{
+  background-color:#ff4c68;
+  /* background-color: #f8b739; */
+  color: white;
+
+
+}
+/*
+#features{
+  padding: 7% 15%;
+}
+
+*/
+
+#features{
+  padding: 7% 15%;
+  position: relative;
+   z-index: 1;   /* she her pdf... no need to give z-index */
+  background-color: white;
+
+}
+
+#testimonials{
+/* padding removed from testimonial and added in corousel-item because padding in testimonial was squeezing in the slide arrows also  */
+  background-color: #ef8172;
+  text-align: center;
+  color: white;
+}
+
+
+/* navigation Bar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+
+}
+
+/* Download buttons
+download-button is customised class to add margin after h1*/
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Testimonials */
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width:13%;
+  margin: 20px 20px 60px;
+}
+
+.carousel-item{
+padding: 7% 15%;
+
+}
+
+/* pricing section */
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding:3% 2%;
+
+}
+
+/* cta section */
+
+#cta{
+
+  padding:5% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+.cta-font{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 3.5rem;
+  margin-top: 5%;
+}
+
+
+/* footer section */
+
+#footer{
+  padding: 3% 15%;
+  text-align: center;
+
+}
+
+.footer-icon{
+  /* font-size: 30px;  fa-2x used instead of font-size in order to increase the size of the icon*/
+margin: 0 1.5% 2%;
+font-size: 25px;
+
+
+}
+
+/* Media query points */
+
+@media (max-width:1028px) {
+
+  .title-image{
+position: static;
+margin-left: 0;
+transform: rotate(0deg);
+
+  }
+
+  h1{
+    text-align: center;
+  }
+
+
+#title{
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+}
